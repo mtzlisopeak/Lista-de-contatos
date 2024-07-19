@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lista de contatos</title>
+</head>
+<body>
+  
+  <div class="container">
+
+    <header>
+      <h1>Lista de contatos</h1>
+      <form>
+        <input type="text" id="nome-contato" placeholder="Nome do contato">
+        <input type="text" id="numero-contato" placeholder="Número do contato">
+        <button type="submit">Adicionar +</button>
+        <p id="aviso"></p>
+      </form>
+    </header>
+  
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Número</th>
+        </tr>
+      </thead>
+  
+      <tbody id="container-contatos">
+      </tbody>
+  
+      <tfoot>
+        <tr>
+          <td>Quantidade de contatos:</td>
+          <td id="quantidade">0</td>
+        </tr>
+      </tfoot>
+  
+    </table>
+
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

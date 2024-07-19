@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+header h1 {
+  color: dodgerblue;
+}
+
+input {
+  border-radius: 0.5vh;
+  padding: 1vh;
+  border: 0.2vh solid gray;
+}
+
+button {
+  border-radius: 0.5vh;
+  padding: 1vh 5vh;
+  font-size: 1.8vh;
+  cursor: pointer;
+  color: white;
+  background-color: dodgerblue;
+}
+
+button:hover {
+  background-color: rgb(39, 96, 153);
+}
+
+table {
+  width: 100%;
+  max-width: 90vh;
+}
+
+table th {
+  font-weight: 700;
+  font-size: 2.5vh;
+  color: dodgerblue;
+  border-bottom: 0.3vh solid black;
+}
+
+table td {
+  font-weight: normal;
+  text-align: center;
+  padding: 1vh 0;
+  font-size: 1.8vh;
+  border-bottom: 0.1vh solid gray;
+}
+
+.container {
+  width: 100%;
+  margin: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+#aviso {
+  display: none;
+}
